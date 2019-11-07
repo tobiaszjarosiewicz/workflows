@@ -1,0 +1,22 @@
+files_array:
+  - class: File
+    path: subset_00
+    inputBinding:
+      position: 2
+      prefix: -i
+  - class: File
+    path: subset_01
+    inputBinding:
+      position: 2
+      prefix: -i
+  - class: File
+    path: subset_02
+    inputBinding:
+      position: 2
+      prefix: -i
+  - class: File
+    path: subset_03
+    inputBinding:
+      position: 2
+      prefix: -i
+
