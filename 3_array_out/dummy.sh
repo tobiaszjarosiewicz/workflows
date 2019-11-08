@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo $1
-echo "done"
+echo "Saving output to " $2
+echo "Lorem ipsum" > $2
+echo "Done."
 
-echo "qwewqe" > /mnt/home/tjarosiewicz/workflows/workflows/manual_output.txt

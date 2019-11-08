@@ -5,16 +5,16 @@ class: CommandLineTool
 baseCommand: sh
 inputs:
   scriptname:
-    type:
-      type: array
-      items: File
+    type: File
     inputBinding:
       position: 1
   savefile:
-    type: File?
+    type:
+      type: array
+      items: string
     inputBinding:
       position: 2
-      prefix: " > "
+      prefix: -f
 outputs:
   output:
     type:
