@@ -20,3 +20,8 @@ files_array:
       position: 2
       prefix: -i
 
+files_names:
+  - out_0
+  - out_1
+  - out_2
+  - out_3
