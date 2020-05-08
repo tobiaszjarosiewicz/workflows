@@ -1,5 +1,3 @@
-#!/usr/bin/env cwl-runner
-
 cwlVersion: v1.0
 class: CommandLineTool
 baseCommand: sh
@@ -8,16 +6,20 @@ inputs:
     type: File
     inputBinding:
       position: 1
-  save_file_name:
+  savefile:
     type: string
     inputBinding:
       position: 2
       prefix: -f
 outputs:
-  savefile:
-    type:
-      type: array
-      items: File
+  outputfile:
+    type: File
     outputBinding:
-      glob: "out*"
+      glob: wynik.txt
+requirements:
+  ResourceRequirement:
+    coresMin: 96
+    coresMax: 96
+    tmpdirMin: 9000
+    ramMin: 40000
 

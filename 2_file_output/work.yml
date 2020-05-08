@@ -1,0 +1,8 @@
+scriptname:
+  class: File
+  path: "skrypt.sh"
+ncores: '36'
+outputfile:
+  class: File
+  path: "out.txt"
+savefile: wynik.txt

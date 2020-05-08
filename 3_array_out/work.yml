@@ -1,10 +1,5 @@
 scriptname:
-  - class: File
-    path: "dummy.sh"
-  - class: File
-    path: "dummy.sh"
-  - class: File
-    path: "dummy.sh"
-savefile:
   class: File
-  path: "out.txt"
+  path: "dummy.sh"
+save_file_name: out
+
