@@ -8,16 +8,16 @@ inputs:
     type: File
     inputBinding:
       position: 1
-  savefile:
-    type:
-      type: array
-      items: string
+  save_file_name:
+    type: string
     inputBinding:
       position: 2
       prefix: -f
 outputs:
-  output:
+  savefile:
     type:
       type: array
       items: File
+    outputBinding:
+      glob: "out*"
 

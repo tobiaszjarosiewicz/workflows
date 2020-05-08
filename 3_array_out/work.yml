@@ -1,7 +1,5 @@
 scriptname:
   class: File
   path: "dummy.sh"
-savefile:
-  - /mnt/home/tjarosiewicz/workflows/workflows/3_array_out/out1.txt
-  - /mnt/home/tjarosiewicz/workflows/workflows/3_array_out/out2.txt
-  - /mnt/home/tjarosiewicz/workflows/workflows/3_array_out/out3.txt
+save_file_name: out
+
